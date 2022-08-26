@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <canvas width="600" height="400"></canvas>
+    <li>
+        <a href="index.html">Index</a>
+    </li>
+    <script>
+        let pantalla = document.querySelector("canvas");
+        let pincel = pantalla.getContext("2d");
+        pincel.fillStyle = "yellow";   //propiedad
+        pincel.fillRect(0,0,600,150); //función
+        pincel.fillStyle = "blue";   //propiedad
+        pincel.fillRect(0,150,600,285); //función
+        pincel.fillStyle = "red";   //propiedad
+        pincel.fillRect(0,285,600,400); //función
+        pincel.fillStyle = ("#7e634e") //propiedad
+        pincel.fillRect(0,0,20,400); //función
+    
+    </script> 
+</body>
+</html>
